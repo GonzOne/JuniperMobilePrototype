@@ -1,0 +1,10 @@
+@mixin debugOutline($color, $style){
+  outline-width: 1px;
+  outline-style: $style;
+  outline-color: $color;
+}
+@mixin squareHotSpot($size, $z){
+  z-index: $z;
+  height: $size;
+  width: $size;
+}

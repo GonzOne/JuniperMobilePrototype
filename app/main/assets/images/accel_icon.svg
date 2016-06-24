@@ -1,0 +1,49 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 135" style="enable-background:new 0 0 135 135;" xml:space="preserve">
+	 <animate attributeName="opacity"
+                      values="0;1;0" dur="3s"
+                      repeatCount="indefinite"/>
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g>
+	<circle class="st0" cx="68.3" cy="67.3" r="58.3">
+
+	</circle>
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<polyline class="st1" points="68.4,27.9 68.3,54.1 68.1,101.6 						"/>
+						<g>
+							<polygon class="st2" points="64.9,28.9 68.4,22.9 71.9,29 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st1" x1="103.7" y1="95.8" x2="68.3" y2="76.5"/>
+						<g>
+							<polygon class="st2" points="104.5,92.2 108.1,98.1 101.2,98.3 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st1" x1="32.8" y1="94.7" x2="68.3" y2="76.5"/>
+						<g>
+							<polygon class="st2" points="35.3,97.4 28.4,97 32.1,91.2 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+			<polygon class="st1" points="93.2,90 68.1,101.6 43.1,90 43.1,54.1 68.4,41.1 93.2,54.1 			"/>
+		</g>
+		<line class="st1" x1="43.1" y1="54.1" x2="68.2" y2="67.3"/>
+		<line class="st1" x1="68.2" y1="67.3" x2="93.2" y2="54.1"/>
+	</g>
+</g>
+</svg>

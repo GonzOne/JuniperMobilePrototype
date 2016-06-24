@@ -1,0 +1,69 @@
+.hot-spot-management{
+  position: absolute;
+  left: 275px;
+  top: 380px;
+  @include squareHotSpot(90px, 10);
+  //@include debugOutline(red,solid);
+}
+.hot-spot-scalability{
+  position: absolute;
+  left: 240px;
+  top: 225px;
+
+  @include squareHotSpot(90px, 20)
+  //@include debugOutline(red,solid);
+}
+.hot-spot-intro-accel{
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  top: 30%;
+  left: 34%;
+  z-index: 100px;
+  span{
+    p{
+
+      font-family: "Myriad Pro", "sans-serif";
+      font-size: 10pt;
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: 200;
+    }
+  }
+  //@include debugOutline(red,solid);
+}
+.hot-spot-intro-hand{
+  position: absolute;
+  left: 302px;
+  top: 535px;
+  width: 85px;
+  height: 106px;
+  @include debugOutline(red,solid);
+}
+.hot-spot-menu-button-1{
+  position: absolute;
+  left: 50px;
+  top: 210px;
+  width: 275px;
+  height: 62px;
+  z-index: 30;
+  //@include debugOutline(red,solid);
+}
+.hot-spot-menu-button-2{
+  position: absolute;
+  left: 50px;
+  top: 276px;
+  width: 275px;
+  height: 62px;
+  z-index: 40;
+  //@include debugOutline(red,solid);
+}
+.hot-spot-menu-button-3{
+  position: absolute;
+  left: 50px;
+  top: 345px;
+  width: 275px;
+  height: 62px;
+  z-index: 50;
+  //@include debugOutline(red,solid);
+}
