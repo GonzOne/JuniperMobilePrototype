@@ -6,10 +6,49 @@
 - gulp: `npm install --global gulp` - http://gulpjs.com/
 - bower: `npm install --global bower` - http://bower.io/
 
-## Platform SDKs
-In order to run your app on a device, you'll need **Platform SDKs** for the platforms and the versions you are developing for. If you just want to develop in the browser for now, no SDKs are needed. Head over to Cordova Documentation: [Platform Guides](http://cordova.apache.org/docs/en/latest/guide/platforms/index.html) or Cordova CLI: [Requirements](https://github.com/apache/cordova-cli/#requirements) for further instructions.
-#### Note
-You don't have to install the **Cordova CLI**. It's provided with the generator. We're installing the Cordova CLI locally (not globally) so you can use the one your project was built with rather than the one you have installed on your machine.
-  
+Generated with Generator-M-Ionic v1.7.0. 
+
+
+#### Clone the project from the repository, run
+
+```sh
+npm install # install node packages
+bower install # install bower packages
+gulp --cordova 'prepare' # install Cordova platforms and plugins
+gulp watch
+```
+
+#### Run in browser
+
+```sh
+gulp watch
+# add --no-open to avoid browser opening
+gulp watch --no-build
+```
+#### Run on the device/emulators, build
+
+```sh
+# both implicitly run gulp build which builds the Ionic app into www/
+gulp --cordova 'run ios --device'
+gulp --cordova 'emulate ios'
+# run the version currently in the www/ folder, without a new build
+gulp --cordova 'run ios --device' --no-build
+# build Options
+gulp --cordova 'run ios --device' --minify --force-build
+```
+
+#### Handle Cordova platforms/plugins
+```sh
+# platforms, use --save to add to config.xml
+gulp --cordova 'platform ls' # list
+gulp --cordova 'platform add android --save' # add
+gulp --cordova 'platform rm android --save' # remove
+# plugins, use --save to add to config.xml
+gulp --cordova 'plugins ls' # list
+gulp --cordova 'plugins add org.apache.cordova.camera --save' # add
+gulp --cordova 'plugins rm org.apache.cordova.camera ---save' # remove
+```
+
+
 ## License
 Code licensed under MIT. Docs under Apache 2. PhoneGap is a trademark of Adobe.
