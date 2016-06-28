@@ -1,17 +1,17 @@
 .hot-spot-management{
   position: absolute;
-  left: 275px;
-  top: 380px;
+  left: 235px;
+  top: 400px;
   @include squareHotSpot(90px, 10);
   //@include debugOutline(red,solid);
 }
 .hot-spot-scalability{
   position: absolute;
-  left: 240px;
-  top: 225px;
+  left: 15px;
+  top: 100px;
 
   @include squareHotSpot(90px, 20)
-  //@include debugOutline(red,solid);
+ // @include debugOutline(red,solid);
 }
 .hot-spot-intro-accel{
   position: absolute;
@@ -34,11 +34,11 @@
 }
 .hot-spot-intro-hand{
   position: absolute;
-  left: 302px;
-  top: 535px;
-  width: 85px;
-  height: 106px;
-  @include debugOutline(red,solid);
+  left: 300px;
+  top: 525px;
+  width: 64px;
+  height: 73px;
+  //@include debugOutline(red,solid);
 }
 .hot-spot-menu-button-1{
   position: absolute;
@@ -65,5 +65,15 @@
   width: 275px;
   height: 62px;
   z-index: 50;
+  //@include debugOutline(red,solid);
+}
+
+.accel_icon{
+  position: absolute;
+  color: #CCCCCC;
+  left: 320px;
+  top: 550px;
+  width: 45px;
+  height: 45px;
   //@include debugOutline(red,solid);
 }
